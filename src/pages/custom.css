@@ -1,0 +1,25 @@
+.custom-description p strong {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.custom-description p {
+    padding-top: 16px;
+}
+.custom-description ul {
+    margin-left: 30px;
+}
+.custom-description li {
+    list-style-type: disc; /* Use 'disc' for filled circles, or 'circle' or 'square' for other styles */
+    /* Add other styles as needed */
+}
+
+.custom-description li::marker {
+    color: #404040; /* Set the color for the bullet points */
+    /* Add other styles as needed */
+}
+
+.custom-it a {
+        color: #0369a1; /* Set the color for the bullet points */
+        text-decoration: underline; /* Add underline to the bullet points */
+}
